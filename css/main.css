@@ -9,6 +9,12 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   background: #162357;
   color: #EEEEFA;
@@ -106,9 +112,17 @@ html {
   flex: 1 1 auto;
   margin: 10px;
   cursor: pointer;
+  border-radius: 5px;
+  max-width: 100%;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 1500px) {
+  .picture {
+    max-width: auto;
+  }
+}
+
+@media (min-width: 1000px) {
   .picture:nth-child(7n+1) {
     max-width: 550px;
   }
