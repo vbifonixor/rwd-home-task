@@ -118,7 +118,7 @@ body {
 
 @media (min-width: 1500px) {
   .picture {
-    max-width: auto;
+    max-width: 100%;
   }
 }
 
