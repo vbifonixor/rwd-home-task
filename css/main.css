@@ -116,6 +116,10 @@ body {
   max-width: 100%;
 }
 
+.picture--img {
+  max-height: 250px;
+}
+
 @media (min-width: 1500px) {
   .picture {
     max-width: 100%;
